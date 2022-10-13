@@ -1,0 +1,23 @@
+Source: node-ieee754
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Siddhesh Rane <kingsid911@gmail.com>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-tap <!nocheck>
+ , node-tape <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-ieee754
+Vcs-Git: https://salsa.debian.org/js-team/node-ieee754.git
+Homepage: https://github.com/feross/ieee754#readme
+Rules-Requires-Root: no
+
+Package: node-ieee754
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Node.js module to read or write IEEE754 floating point numbers
+ ieee754 lets you read binary data from a buffer into javascript
+ number data types and write it back into binary buffer.

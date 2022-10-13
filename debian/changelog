@@ -1,0 +1,89 @@
+node-ieee754 (1.2.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-tap.
+
+  [ Yadd ]
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Mon, 11 Oct 2021 11:21:38 +0200
+
+node-ieee754 (1.2.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * debian/copyright: use spaces rather than tabs to start continuation
+    lines.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints.
+    + node-ieee754: Add Multi-Arch: foreign.
+
+  [ lintian-brush ]
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs
+  * New upstream version 1.2.1
+  * Update description
+  * Update copyright
+  * Drop unneeded version constraints from (build) dependencies
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 30 Nov 2020 17:06:36 +0100
+
+node-ieee754 (1.1.13-1) unstable; urgency=medium
+
+  * New upstream version 1.1.13
+  * Bump debhelper-compat to 12
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+  * Switch to pkg-js-tools auto install and tests
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 27 Aug 2019 17:37:16 +0000
+
+node-ieee754 (1.1.12-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 03 Jul 2018 22:43:12 +0200
+
+node-ieee754 (1.1.10-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream
+  * Move to salsa
+  * Bump policy and compat (no changes)
+  * Move to javascript section
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 07 May 2018 15:38:38 +0200
+
+node-ieee754 (1.1.8-3) unstable; urgency=medium
+
+  * Team upload
+  * Run testsuite
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 09 Apr 2017 15:26:56 +0200
+
+node-ieee754 (1.1.8-2) unstable; urgency=medium
+
+  * Team upload
+  * Upload to unstable (needed for packaging node-buffer).
+  * Bump debhelper to 10.
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 27 Mar 2017 22:06:39 +0200
+
+node-ieee754 (1.1.8-1) experimental; urgency=low
+
+  * Initial release (Closes: #853140)
+  * New upstream release
+
+ -- Siddhesh Rane <kingsid911@gmail.com>  Mon, 30 Jan 2017 08:05:48 +0000
